@@ -1,0 +1,174 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #2196f3;
+  --darkgrey: #2f303a;
+  --grey: #757575;
+  --lightgrey: #e5e5e5;
+  --lightcream: #ececec;
+  --notblack: #212121;
+  --notwhite: #f5f4fa;
+  --footerlinkscolor: #ffffff99;
+  --productborder: #eeeeee;
+}
+.nav-style {
+  list-style-type: none;
+}
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--notblack);
+  background-color: var(--lightgrey);
+}
+.logo-style1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26;
+  line-height: 1, 19;
+  color: var(--blue);
+  text-decoration: none;
+}
+.logo-style2 {
+  color: var(--black);
+}
+.logo-style3 {
+  color: var(--white);
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0, 02em;
+}
+.nav-link:hover {
+  color: var(--blue);
+}
+.nav-link:focus {
+  color: var(--blue);
+}
+.links {
+  text-decoration: none;
+  color: var(--lightgrey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0, 02em;
+}
+.links:hover {
+  color: var(--blue);
+}
+.links:focus {
+  color: var(--blue);
+}
+.contact-link {
+  color: var(--notblack);
+}
+.contact-link-low {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0, 03em;
+  color: var(--footerlinkscolor);
+}
+.main-section {
+  background-color: var(--darkgrey);
+  text-align: center;
+}
+.main-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  letter-spacing: 1, 36;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.filter-button {
+  background: var(--notwhite);
+  color: var(--notblack);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+}
+.filter-button:hover {
+  background: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+.filter-button:focus {
+  background: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+.btn-order {
+  background: var(--blue);
+  color: var(--white);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1, 87;
+  line-height: 30px;
+}
+.btn-order:hover {
+  background: var(--notwhite);
+  color: var(--notblack);
+  cursor: pointer;
+}
+.btn-order:focus {
+  background: var(--notwhite);
+  color: var(--notblack);
+  cursor: pointer;
+}
+.post-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0, 03em;
+  text-transform: uppercase;
+  color: var(--notblack);
+}
+.post-text {
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0, 03em;
+  color: var(--notblack);
+}
+.services-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0, 03em;
+}
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0, 03em;
+}
+.employee-job {
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0, 03em;
+  color: var(--grey);
+}
+.product-card-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.product-card-text {
+  font-size: 16px;
+  line-height: 1, 88;
+  color: var(--grey);
+}
+.footer-color {
+  background: var(--darkgrey);
+}
+.location {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0, 03em;
+  color: var(--white);
+}
